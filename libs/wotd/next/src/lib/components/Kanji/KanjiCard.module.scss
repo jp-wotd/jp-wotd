@@ -1,0 +1,54 @@
+.card {
+  align-items: center;
+  background-color: hsla(214, 62%, 21%, 1);
+  border: none;
+  box-sizing: border-box;
+  color: rgba(55, 65, 81, 1);
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  margin-top: 3.5rem;
+  border-radius: 1.5rem;
+
+  &__text {
+    color: rgba(255, 255, 255, 1);
+
+    h2 {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      position: relative;
+
+      svg {
+        color: hsla(162, 47%, 50%, 1);
+        height: 2rem;
+        left: -0.25rem;
+        position: absolute;
+        top: 0;
+        width: 2rem;
+      }
+
+      span {
+        margin-left: 2.5rem;
+      }
+    }
+
+    a {
+      background-color: rgba(255, 255, 255, 1);
+      border-radius: 0.75rem;
+      color: rgba(55, 65, 81, 1);
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 1rem 2rem;
+      text-decoration: inherit;
+    }
+  }
+
+  &__kanji {
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+    font-size: 8rem;
+  }
+}

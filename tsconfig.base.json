@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@jp-wotd/shared/wotd/types": ["libs/shared/wotd/types/src/index.ts"],
+      "@jp-wotd/wotd//wotd-web/server": ["libs/wotd/wotd-web/src/server.ts"],
+      "@jp-wotd/wotd/native": ["libs/wotd/native/src/index.ts"],
+      "@jp-wotd/wotd/next": ["libs/wotd/next/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
